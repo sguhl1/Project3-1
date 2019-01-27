@@ -111,7 +111,7 @@ export class Insights extends React.Component {
                 <Typography 
                     style={{margin: "12px"}}
                     component="h2">
-                    Please start by checking in data using the 'Add' button top right.
+                    Click on the 'CHECK IN' button in the top navbar to begin.
                 </Typography>
             }
             </div>

@@ -40,7 +40,7 @@ export class CheckInDialog extends React.Component {
                 open={this.state.open}
                 onClose={this.handleClose}
                 aria-labelledby="responsive-dialog-title">
-                <DialogTitle id="responsive-dialog-title">{"Add new mood entry?"}</DialogTitle>
+                <DialogTitle id="responsive-dialog-title">{"How are you feeling?"}</DialogTitle>
                 <DialogContent>
                     <MoodStepper setCloseDialog={this.handleClose}/>
                 </DialogContent>
