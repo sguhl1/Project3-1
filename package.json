@@ -4,7 +4,8 @@
   "description": "Unmind Wellness Project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server index.js -d"
+    "start": "webpack-dev-server index.js -d",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Mark Atkinson",
   "license": "MIT",
