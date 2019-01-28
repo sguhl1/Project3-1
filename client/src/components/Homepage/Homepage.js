@@ -41,12 +41,12 @@ class Homepage extends Component {
 			   	<Link to="/doctors">
 			   		<button className="btn-tabs"> 
 			   		<img src={doctor} alt="doctor" className="btn-image"/>
-			   		Doctors</button>
+			   		Counselors</button>
 			   	</Link>
 			   	<Link to="/questions">
 			   		<button className="btn-tabs">
 			   		<img src={question} alt="question" className="btn-image"/>
-			   		Questions</button>
+			   		Ask A Question</button>
 			   	</Link>
 			   	<Link to="/chatroom">
 			   		<button className="btn-tabs">
