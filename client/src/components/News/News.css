@@ -1,0 +1,13 @@
+.news-segment{
+	height: 500px;
+	overflow: scroll;
+}
+
+.ui.dividing.header.news-header{
+	color: #fff;
+}
+
+.news-container{
+	width: 1200px;
+	margin: 0 auto;
+}

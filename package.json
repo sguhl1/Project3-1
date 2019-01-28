@@ -1,32 +1,34 @@
 {
-  "name": "unmind-project",
-  "version": "1",
-  "description": "Unmind Wellness Project",
-  "main": "index.js",
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Mern Demo",
+  "main": "server.js",
   "scripts": {
-    "start": "webpack-dev-server index.js -d",
-    "heroku-postbuild": "npm run build"
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon --inspect server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mark Atkinson",
-  "license": "MIT",
-  "dependencies": {
-    "@material-ui/core": "^1.4.1",
-    "@material-ui/icons": "^2.0.0",
-    "axios": "^0.18.0",
-    "bootstrap": "^4.1.2",
-    "chart.js": "^2.7.2",
-    "react": "^16.4.1",
-    "react-chartjs-2": "^2.7.4",
-    "react-dom": "^16.4.1",
-    "react-material-design": "^0.4.3"
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.54",
-    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.54",
-    "@babel/preset-react": "^7.0.0-beta.54",
-    "babel-loader": "8.0.0-beta.0",
-    "webpack": "^4.16.1",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.4"
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "material-ui": "^0.20.0",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-router-dom": "^4.2.2",
+    "socket.io": "^2.1.0",
+    "stripe": "^5.8.0"
   }
 }

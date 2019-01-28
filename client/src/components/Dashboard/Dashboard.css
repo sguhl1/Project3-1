@@ -1,0 +1,33 @@
+
+.dashboard-page{
+	text-align: center;
+  	color:#fff;
+  	text-decoration: none;
+  	font-family: "National2, Helvetica Neue";
+  	font-size: 30px;
+}
+
+.typed-text {
+	margin: 40px;
+}
+
+.typewrite{
+	font-size: 48px;	
+}
+
+.logo-dashboard{
+	margin-top: 130px;
+	height: 100px;
+	width: 150px;
+}
+
+.btn-dashboard{
+	font-family: "National2, Helvetica Neue";
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+	margin-right: 30px;
+	border: 2px solid red;
+	/*border-radius: 25px;*/
+}
+* { color:#fff; text-decoration: none;}

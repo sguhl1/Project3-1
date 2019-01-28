@@ -1,0 +1,41 @@
+
+.link-logout{
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #ff3030;
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.div-logo{
+  margin-left: 500px;
+  padding: 20px 0px;
+}
+
+.link-homepage{	
+	float: left;
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	background-color: #ff3030;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.text-secondary {
+     color: #fff !important; 
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-container{
+	position: relative;
+}
